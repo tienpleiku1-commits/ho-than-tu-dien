@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+      base: env.VITE_BASE_URL || '/ho-than-tu-dien/'
     };
 });
